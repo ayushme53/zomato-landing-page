@@ -29,8 +29,16 @@
       <section class="hero__container">
         <div class="hero__image__container">
           <img src="./assets/hero.jpg" alt="hero image" class="hero__image" />
-          <img src="./assets/svg/heroShape.svg" alt="hero image shape" class="hero__image__shape" />
-          <img src="./assets/svg/herobgpattren.svg" alt="hero image pattern" class="hero__image__pattern" />
+          <img
+            src="./assets/svg/heroShape.svg"
+            alt="hero image shape"
+            class="hero__image__shape"
+          />
+          <img
+            src="./assets/svg/herobgpattren.svg"
+            alt="hero image pattern"
+            class="hero__image__pattern"
+          />
         </div>
         <div class="hero__description">
           <h1 class="hero__text">
@@ -42,11 +50,56 @@
       <!--Explore Menu-->
       <section class="explore__menu__container">
         <h1 class="explore__menu__text">Explore our Menu</h1>
+        <div class="explore__menu__gradient__bg"></div>
         <div class="explore__menu__lists">
-          
+          <!--Burger-->
+          <div class="food__card">
+            <div class="food__card__image__container">
+              <img src="./assets/burger.jpg" alt="burger" class="food_image" />
+            </div>
+            <div class="food__card__description">
+              <h3 class="food__title">Burger</h3>
+              <p>
+                Burgur KING, McDonalds, Burgur Palace
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+          <!--Pizza-->
+          <div class="food__card" id="pizza_card">
+            <div class="food__card__image__container">
+              <img src="./assets/pizza.jpg" alt="pizza" class="food_image" />
+            </div>
+            <div class="food__card__description">
+              <h3 class="food__title">Pizza</h3>
+              <p>
+                Pizza Hut, Dominos Pizza
+                <span style="color: red">+2</span>
+              </p>
+            </div>
+          </div>
+          <!--Icecream-->
+          <div class="food__card">
+            <div class="food__card__image__container">
+              <img
+                src="./assets/iceCream.jpg"
+                alt="iceCream"
+                class="food_image"
+              />
+            </div>
+            <div class="food__card__description">
+              <h3 class="food__title">IceCream</h3>
+              <p>
+                Baskin Robins, Ibato
+                <span style="color: red">+2</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="explore__menu__view__more">
+          <button class="button__primary">View More!</button>
         </div>
       </section>
-
     </main>
   </body>
 </html>
